@@ -1,0 +1,10 @@
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.deps.json
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.dll
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\bin\Debug\netcoreapp3.1\ServerCore.pdb
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.AssemblyReference.cache
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfoInputs.cache
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfo.cs
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.dll
+C:\Users\kmg87\바탕 화면\Chat (Default)\MMO_Server\ServerCore\obj\Debug\netcoreapp3.1\ServerCore.pdb
