@@ -32,11 +32,11 @@ namespace Server
 			Console.WriteLine("Listening...");
 
 			//FlushRoom();
-			JobTimer.Instance.Push(FlushRoom);
+			JobTimer.Instance.Push(FlushRoom);      // FlushRoom 작업 추가 
 
 			while (true)
 			{
-				JobTimer.Instance.Flush();
+				JobTimer.Instance.Flush();			// 작업 실행
 			}
 		}
 	}

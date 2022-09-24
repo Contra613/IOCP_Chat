@@ -9,7 +9,7 @@ namespace Server
 		static SessionManager _session = new SessionManager();
 		public static SessionManager Instance { get { return _session; } }
 
-		int _sessionId = 0;
+		int _sessionId = 0;		// Session ID -> Server에서 관리
 		Dictionary<int, ClientSession> _sessions = new Dictionary<int, ClientSession>();
 		object _lock = new object();
 
@@ -18,7 +18,7 @@ namespace Server
 		{
 			lock (_lock)
 			{
-				int sessionId = ++_sessionId;
+				int sessionId = ++_sessionId;	// 생성할 때마다 sessionId를 1씩 증가
 
 				ClientSession session = new ClientSession();
 				session.SessionId = sessionId;
@@ -30,6 +30,7 @@ namespace Server
 			}
 		}
 
+		// 특정 ID를 가진 ClientSession 찾기
 		public ClientSession Find(int id)
 		{
 			lock (_lock)
@@ -40,6 +41,7 @@ namespace Server
 			}
 		}
 
+		// ClientSession 제거
 		public void Remove(ClientSession session)
 		{
 			lock (_lock)

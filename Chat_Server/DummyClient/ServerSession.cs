@@ -6,6 +6,7 @@ using ServerCore;
 
 namespace DummyClient
 {
+	// Client에 들어오는 ServerSession의 작업을 설정
 	class ServerSession : PacketSession
 	{
 		public override void OnConnected(EndPoint endPoint)
@@ -25,7 +26,7 @@ namespace DummyClient
 
 		public override void OnSend(int numOfBytes)
 		{
-			//Console.WriteLine($"Transferred bytes: {numOfBytes}");
+            //Console.WriteLine($"Transferred bytes: {numOfBytes}");
 		}
 	}
 }

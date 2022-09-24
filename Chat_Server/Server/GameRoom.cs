@@ -34,7 +34,7 @@ namespace Server
 		{
 			S_Chat packet = new S_Chat();
 			packet.playerId = session.SessionId;
-			packet.chat =  $"{chat} I am {packet.playerId}";
+			packet.chat =  $"ID({packet.playerId}) {chat}";
 			ArraySegment<byte> segment = packet.Write();	// 보내야 하는 packet 작성
 
 			_pendingList.Add(segment);			

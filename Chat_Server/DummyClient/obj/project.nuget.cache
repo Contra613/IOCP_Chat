@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuOv41emvVXVHjWPIlm8uruMJAJN/dOyfvNl2nz9avU0uaDOjBYsXW2aoQHa6iRyuixxx7BAIqd5ehuiHLvs5A==",
+  "dgSpecHash": "P1mwhQYy1SBCeTaVT+RQfgCScTOKFupTuQr93jes+erloExt6dSJwbNQokUgomun1t/d4vjjI8SOkvgPmHUqRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmg87\\바탕 화면\\Chat Server\\MMO_Server\\DummyClient\\DummyClient.csproj",
+  "projectFilePath": "C:\\Users\\kmg87\\Unity\\Chat_SERVER\\Chat_Server\\DummyClient\\DummyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

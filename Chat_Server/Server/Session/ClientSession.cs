@@ -9,6 +9,8 @@ using System.Net;
 
 namespace Server
 {
+	// Server에 들어오는 ClientSession의 작업을 설정
+	// 즉, 가게에 손님이 들어오면 들어올 때 할 작업(OnConnected)을 실행 -> 들어온 사람의 주소를 출력하고, Room에 손님을 저장
 	class ClientSession : PacketSession
 	{
 		public int SessionId { get; set; }

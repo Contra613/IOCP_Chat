@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+mZ7aB1FgHfRssqpCJdskwCbXZGITEjaPulF6lowP2Nu0mNUdO4DR4f1cn+4HcN+mlGkY2VDJreLihsstMPdQ==",
+  "dgSpecHash": "XVZ1/Ad6jfJUCV6DW5nsj+dmLEwHAdw4gPrEc+dginW98aCkvLaOfiC1IYQ3rOZZrknvjrQS1k/o+/3aw5WKnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmg87\\바탕 화면\\Chat Server\\MMO_Server\\PacketGenerator\\PacketGenerator.csproj",
+  "projectFilePath": "C:\\Users\\kmg87\\Unity\\Chat_SERVER\\Chat_Server\\PacketGenerator\\PacketGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

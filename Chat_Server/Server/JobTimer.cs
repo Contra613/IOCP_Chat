@@ -18,11 +18,12 @@ namespace Server
 
 	class JobTimer
 	{
-		PriorityQueue<JobTimerElem> _pq = new PriorityQueue<JobTimerElem>();
+		PriorityQueue<JobTimerElem> _pq = new PriorityQueue<JobTimerElem>();	// 우선순위 큐
 		object _lock = new object();
 
 		public static JobTimer Instance { get; } = new JobTimer();
 
+		// PriorityQueue<JobTimerElem>에 작업 실행 시간과 실행할 작업 추가 
 		public void Push(Action action, int tickAfter = 0)
 		{
 			JobTimerElem job;
@@ -35,11 +36,12 @@ namespace Server
 			}
 		}
 
+		// 
 		public void Flush()
 		{
 			while (true)
 			{
-				int now = System.Environment.TickCount;
+				int now = System.Environment.TickCount;		// 현재 시간
 
 				JobTimerElem job;
 
@@ -48,14 +50,14 @@ namespace Server
 					if (_pq.Count == 0)
 						break;
 
-					job = _pq.Peek();
+					job = _pq.Peek();	// 훔쳐보기
 					if (job.execTick > now)
 						break;
 
 					_pq.Pop();
 				}
 
-				job.action.Invoke();
+				job.action.Invoke();	// 작업 실행
 			}
 		}
 	}

@@ -12,6 +12,7 @@ namespace DummyClient
 		List<ServerSession> _sessions = new List<ServerSession>();
 		object _lock = new object();
 
+		// 모든 ServerSession에 Chat packet을 보내기
 		public void SendForEach()
 		{
 			lock (_lock)
@@ -19,14 +20,19 @@ namespace DummyClient
 				foreach (ServerSession session in _sessions)
 				{
 					C_Chat chatPacket = new C_Chat();
-					chatPacket.chat = $"Hello Server !";
+					string userchat = Console.ReadLine();
+					chatPacket.chat = $"{userchat}";
 					ArraySegment<byte> segment = chatPacket.Write();
 
 					session.Send(segment);
+
+
+					Console.WriteLine("\n");
 				}
 			}
 		}
 
+		// ServerSession 생성
 		public ServerSession Generate()
 		{
 			lock (_lock)

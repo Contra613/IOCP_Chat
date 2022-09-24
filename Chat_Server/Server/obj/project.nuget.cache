@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hJTNpmL8UcHS34AAhrdKSKLQBnSPU3Ph6fcKq9P+5pNhW4T8NRZ5+D7L2tGUc5vwZxtg77IPDlDl7eHYq/kWfg==",
+  "dgSpecHash": "QkppA1gxKuDdFTWSnqqcLJ5uP5GwGA9cPp03TgNQa2cN9QRfFki49yyl75J3zYQ6le9TQM1RBRrwyXBMHcX72Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmg87\\바탕 화면\\Chat Server\\MMO_Server\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\kmg87\\Unity\\Chat_SERVER\\Chat_Server\\Server\\Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
